@@ -1,0 +1,8 @@
+"Name","Version","License","URL","Description"
+"Django","4.0.2","BSD License","https://www.djangoproject.com/","A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+"Pillow","9.0.1","Historical Permission Notice and Disclaimer (HPND)","https://python-pillow.org","Python Imaging Library (Fork)"
+"asgiref","3.5.0","BSD License","https://github.com/django/asgiref/","ASGI specs, helper code, and adapters"
+"django-widget-tweaks","1.4.12","MIT License","https://github.com/jazzband/django-widget-tweaks","Tweak the form field rendering in templates, not in python-level form definitions."
+"pipdeptree","2.2.1","MIT License","https://github.com/naiquevin/pipdeptree","Command line utility to show dependency tree of packages"
+"pytz","2021.3","MIT License","http://pythonhosted.org/pytz","World timezone definitions, modern and historical"
+"sqlparse","0.4.2","BSD License","https://github.com/andialbrecht/sqlparse","A non-validating SQL parser."
