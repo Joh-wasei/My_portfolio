@@ -88,3 +88,12 @@ main {
     transform: translate(0px);
     opacity: 1;
 }
+
+.line-color {
+    color: #EE6C4D;
+}
+
+.line-color:hover {
+    color: #C56C55;
+    text-decoration: none;
+}
