@@ -20,3 +20,12 @@ class DetailView(View):
         return render(request, 'app/detail.html', {
             'work_data': work_data
         })
+        
+class AboutView(View):
+    def get(self, request, *args, **kwargs):
+        profile_data = Profile.objects.all()
+        if profile_data.exists():
+            profile_data = profile_data.order_by('-id')[0]
+        return render(request, 'app/about.html', {
+            'profile_data': profile_data
+        })
