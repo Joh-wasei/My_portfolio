@@ -26,6 +26,10 @@ class AboutView(View):
         profile_data = Profile.objects.all()
         if profile_data.exists():
             profile_data = profile_data.order_by('-id')[0]
+        experience_data = Experience.objects.order_by('-id')
+        education_data = Education.objects.order_by('-id')
         return render(request, 'app/about.html', {
-            'profile_data': profile_data
+            'profile_data': profile_data,
+            'experience_data': experience_data,
+            'education_data': education_data,
         })
