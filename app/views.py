@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import View
-from .models import Profile, Work
+from .models import Profile, Work, Experience, Education
 # Create your views here.
 
 class IndexView(View):
