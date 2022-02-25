@@ -39,3 +39,12 @@ class Experience(models.Model):
     
     def __str__(self):
         return self.occupation
+
+class Education(models.Model):
+    course = models.CharField('コース', max_length=100)
+    school = models.CharField('学校', max_length=100)
+    place = models.CharField('場所', max_length=100)
+    period = models.CharField('期間', max_length=100)
+    
+    def __str__(self):
+        return self.course
