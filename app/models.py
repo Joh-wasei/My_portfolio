@@ -48,3 +48,19 @@ class Education(models.Model):
     
     def __str__(self):
         return self.course
+    
+class Software(models.Model):
+    name = models.CharField('ソフトウェア', max_length=100)
+    level = models.CharField('レベル', max_length=100)
+    percentage = models.IntegerField('パーセンテージ')
+    
+    def __str__(self):
+        return self.name
+    
+class Technical(models.Model):
+    name = models.CharField('テクニカル', max_length=100)
+    level = models.CharField('レベル', max_length=100)
+    percentage = models.IntegerField('パーセンテージ')
+    
+    def __str__(self):
+        return self.name
