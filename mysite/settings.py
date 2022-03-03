@@ -124,7 +124,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # 開発環境用
-EMALI_BACKEND = 'django.core.mail.backends.consele.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # 本番用
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
